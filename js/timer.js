@@ -41,7 +41,6 @@ class Timer {
             document.onmousemove = null;
 
             clearInterval(this.idInterval);
-            this.secondsLimit = 120;
             this.addErrorBlock();
         }, 120000);
     }
